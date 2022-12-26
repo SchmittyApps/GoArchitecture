@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Form</title>
+    <div class="head-flex-container">
+        <div class="container">
+            <div class="time">
+                <span>Hours</span>
+                <span id="hours">00</span>
+            </div>
+            <div class="time">
+                <span>Minute</span>
+                <span id="min">00</span>
+            </div>
+            <div class="time">
+                <span>Second</span>
+                <span id="sec">00</span>
+            </div>
+            <div class="time">
+                <span>Period</span>
+                <span id="period">AM</span>
+            </div>
+        </div>
+    </div>
+</head>
+<body>
+                <nav aria-label="main" id="navbar">
+              <ul class="horizontal">
+                <li><a aria-label="Home Link" href="https://GoArchitecture.schmittyapps.repl.co">Home</a></li>
+                <li><a aria-label="Form" href="https://GoArchitecture.schmittyapps.repl.co/form.html">Form</a></li>
+             </ul>
+            </nav>
+    <div>
+        <form method="POST" action="/form">
+            <label>Name:</label><br>
+            <input type="text" name="name" value=""/><br>
+            <label>Address:</label><br>
+            <input type="text" name="address" value=""/><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="/static/scripts.js"></script>
+    <script src="/static/main.js"></script>
+</body>
+</html>
