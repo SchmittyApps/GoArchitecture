@@ -1,9 +1,9 @@
 package dirThree
 
 import (
-  "fmt"
+	"fmt"
 )
-  
-funcSayHello() {
-  fmt.Println("Hi there! I am a knight")
+
+func SayHello() {
+	fmt.Println("Hi there! I am a knight")
 }
