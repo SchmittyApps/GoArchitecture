@@ -1,3 +1,3 @@
-module https://github.com/SchmittyApps/GoArchitecture
+module github.com/SchmittyApps/GoArchitecture
 
 go 1.19
